@@ -1,0 +1,135 @@
+.header {
+    background: #012D63;
+    height: 93px;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: red solid;
+}
+
+.header-box {
+    display: flex;
+
+}
+
+.header-nav-list {
+    display: flex;
+    gap: 29px;
+    margin-right: 73px;
+}
+
+.header-img-link {
+    margin-right: 152px;
+}
+
+.header-img {
+    width: 100px;
+height: 60px;
+flex-shrink: 0;
+}
+
+.header-nav-link {
+color: #C7C7C7;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.header-language-list {
+    display: flex;
+    gap: 13px;
+}
+
+.header-language-text {
+    color: #DCDCDC;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.section-hero {
+    background-image: url(./images/section-hero--background.jpg);
+    background-size: cover;
+    padding-top: 94px;
+    padding-bottom: 183px;
+}
+
+.hero-box-img {
+    width: 160px;
+height: 120px;
+flex-shrink: 0;
+}
+
+.hero-box-text {
+    color: #FFF;
+font-family: PT Serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+left: 195pxpx;
+bottom: 430px;
+}
+
+.hero-headline {
+    color: #FFF;
+font-family: Playfair Display;
+font-size: 144px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 36px;
+}
+
+.hero-subtitle {
+    color: #FFF;
+font-family: Playfair Display;
+font-size: 72px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 15px;
+}
+
+.hero-text {
+margin-top: 32px;
+color: #FFF;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 508px;
+height: 84px;
+}
+
+.hero-button {
+    width: 254px;
+height: 67px;
+flex-shrink: 0;
+    border-radius: 10px;
+    background: #8E32C6;
+    color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border: none;
+margin-top: 34px;
+}
+
+.reviews-img-decoration {
+    position: absolute;
+    left: 125px;
+}
