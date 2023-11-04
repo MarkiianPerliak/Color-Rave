@@ -9,7 +9,6 @@
     width: 1140px;
     margin-left: auto;
     margin-right: auto;
-    outline: red solid;
 }
 
 .header-box {
@@ -132,4 +131,71 @@ margin-top: 34px;
 .reviews-img-decoration {
     position: absolute;
     left: 125px;
+}
+
+.section-info {
+    background-image: url(./images/baground-section-info.jpg);
+    padding-top: 105px;
+    padding-bottom: 105px;
+}
+
+.info-list {
+    display: flex;
+    justify-content: center;
+    border: 5px solid #8E32C6;
+}
+
+.info-item {
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+.info-article {
+    padding: 50px;
+}
+
+
+.info-article-1 {
+    border-left: 1px solid #FFF;
+}
+
+.info-article-2 {
+    border-left: 1px solid #FFF;
+}
+
+
+.info-text {
+    color: #FFF;
+text-align: center;
+font-family: Playfair Display;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: auto;
+margin-right: auto;
+}
+
+.info-text-1-wight {
+    width: 159px;
+height: 102px;
+flex-shrink: 0;
+}
+
+.info-text-2-wight {
+    width: 161px;
+    height: 102px;
+    flex-shrink: 0;
+}
+
+.info-text-3-wight {
+    width: 151px;
+    height: 103px;
+    flex-shrink: 0;
+}
+
+.info-img {
+    width: 240px;
+height: 240px;
+flex-shrink: 0;
 }
