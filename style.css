@@ -128,11 +128,6 @@ border: none;
 margin-top: 34px;
 }
 
-.reviews-img-decoration {
-    position: absolute;
-    left: 125px;
-}
-
 .section-info {
     background-image: url(./images/baground-section-info.jpg);
     padding-top: 105px;
@@ -198,4 +193,115 @@ flex-shrink: 0;
     width: 240px;
 height: 240px;
 flex-shrink: 0;
+}
+
+.section-reviews {
+    background-image: url(./images/baground-for-another-section.jpg);
+    padding-top: 24px;
+    padding-bottom: 114px;
+}
+
+.reviews-img-decoration {
+    position: absolute;
+}
+
+.reviews-text {
+    color: #FFF;
+text-align: center;
+font-family: Playfair Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 24px;
+}
+
+.reviews-list {
+    display: flex;
+    justify-content: center;
+    gap: 93px;
+}
+
+.reviews-article {
+    padding-left: 13px;
+    padding-right: 14px;
+    padding-top: 49px;
+    padding-bottom: 29px;
+    border-radius: 15px;
+
+}
+
+.reviews-article-color-1 {
+    background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+    box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
+}
+
+.reviews-article-color-2  {
+    border-radius: 15px;
+    background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+    box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
+}
+
+.reviews-article-color-3 {
+    border-radius: 15px;
+    background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+    box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
+}
+
+.reviews-title {
+    color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 228px;
+margin-bottom: 8px;
+}
+
+.reviews-title-time {
+    color: #D8D8D8;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 47px;
+}
+
+.reviews-box {
+    display: flex;
+}
+
+.review-box-img {
+    width: 31px;
+height: 31px;
+flex-shrink: 0;
+}
+
+.reviews-small-box {
+    margin-left: 5px;
+}
+
+.reviews-small-text {
+    color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 1px;
+}
+
+.reviews-small-text-info {
+    color: #D8D8D8;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.section-order {
+    background-image: url(./images/baground-section-order.png);
 }
