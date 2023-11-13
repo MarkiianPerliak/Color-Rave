@@ -304,4 +304,64 @@ line-height: normal;
 
 .section-order {
     background-image: url(./images/baground-section-order.png);
+    padding-top: 21px;
+    padding-bottom: 37px;
+}
+
+.order-headline {
+    color: #FFF;
+font-family: Playfair Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+margin-bottom: 33px;
+}
+
+.order-input {
+    display: block;
+width: 600px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #FFF;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+
+.order-list {
+    margin-top: 19px;
+    row-gap: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order-list-input {
+    width: 530px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #FFF;
+}
+
+.order-button {
+    display: block;
+    margin-top: 19px;
+    width: 248px;
+height: 68px;
+flex-shrink: 0;
+border-radius: 16px;
+background: #8E32C6;
+color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: auto;
+margin-right: auto;
 }
