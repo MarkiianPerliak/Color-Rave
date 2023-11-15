@@ -328,6 +328,7 @@ border-radius: 50px;
 background: #FFF;
 margin-left: auto;
 margin-right: auto;
+border: none;
 
 
 }
@@ -346,6 +347,7 @@ height: 40px;
 flex-shrink: 0;
 border-radius: 50px;
 background: #FFF;
+border: none;
 }
 
 .order-button {
@@ -364,4 +366,87 @@ font-weight: 400;
 line-height: normal;
 margin-left: auto;
 margin-right: auto;
+border: none;
+}
+
+.footer {
+    background: #021635;
+    padding-top: 45px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 373px;
+    padding-bottom: 20px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.footer-text {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-gmail-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.footer-gmail-link {
+    color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+}
+
+.footer-box {
+    display: flex;
+}
+
+.footer-text-box {
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+    row-gap: 7px;
+    margin-right: 724px;
+}
+
+.footer-text-data {
+    color: #FFF;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.footer-title {
+    color: #FFF;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.footer-info {
+    color: #FFF;
+font-family: PT Serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
