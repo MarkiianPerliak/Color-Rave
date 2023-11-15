@@ -1,6 +1,7 @@
 .header {
     background: #012D63;
-    height: 93px;
+    padding-top: 16px;
+    padding-bottom: 14px;
 }
 
 .container {
@@ -13,7 +14,8 @@
 
 .header-box {
     display: flex;
-
+    align-items: center;
+    justify-content: center;
 }
 
 .header-nav-list {
@@ -126,12 +128,15 @@ font-weight: 400;
 line-height: normal;
 border: none;
 margin-top: 34px;
+cursor: pointer;
 }
 
 .section-info {
     background-image: url(./images/baground-section-info.jpg);
     padding-top: 105px;
     padding-bottom: 105px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .info-list {
@@ -319,18 +324,43 @@ text-align: center;
 margin-bottom: 33px;
 }
 
+.order-box {
+    position: relative;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .order-input {
     display: block;
-width: 600px;
-height: 50px;
+width: 650px;
+height: 60px;
 flex-shrink: 0;
 border-radius: 50px;
 background: #FFF;
-margin-left: auto;
-margin-right: auto;
 border: none;
+color: #959595;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left: 25px;
+}
 
-
+.order-confirm-button {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    top: 13.5px;
+    right: 0;
+    color: #8D8D8D;
+font-family: Roboto;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+cursor: pointer;
 }
 
 .order-list {
@@ -342,12 +372,19 @@ border: none;
 }
 
 .order-list-input {
-    width: 530px;
-height: 40px;
-flex-shrink: 0;
+    width: 580px;
+    height: 50px;
+    flex-shrink: 0;
 border-radius: 50px;
 background: #FFF;
 border: none;
+color: #959595;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left: 24px;
 }
 
 .order-button {
@@ -367,6 +404,7 @@ line-height: normal;
 margin-left: auto;
 margin-right: auto;
 border: none;
+cursor: pointer;
 }
 
 .footer {
@@ -442,6 +480,16 @@ font-weight: 400;
 line-height: normal;
 }
 
+.footer-image-box {
+    position: relative;
+    width: 108px;
+}
+
+.footer-image {
+    width: 108px;
+height: 81px;
+}
+
 .footer-info {
     color: #FFF;
 font-family: PT Serif;
@@ -449,4 +497,8 @@ font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+position: absolute;
+right: 0;
+left: 0;
+top: 53px;
 }
