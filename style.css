@@ -64,6 +64,10 @@ line-height: normal;
     padding-bottom: 183px;
 }
 
+.hero-box {
+    position: relative;
+}
+
 .hero-box-img {
     width: 160px;
 height: 120px;
@@ -78,8 +82,8 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 position: absolute;
-left: 195pxpx;
-bottom: 430px;
+
+top: 80px;
 }
 
 .hero-headline {
@@ -209,7 +213,7 @@ flex-shrink: 0;
 
 .reviews-img-decoration {
     position: absolute;
-    top: 1910px;
+    top: 1810px;
     left: 0.1px;
 }
 
